@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="font-normal font-sans leading-relaxed antialiased">
+
+  <head>
+    {% include "components/head.njk" %}
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    {% if env == 'production' %}
+      {% set css %}{% include "css/style.min.css" %}{% endset %}
+      <style> 
+        {{ css | safe }}
+      </style>
+    {% else %}
+    <link rel="stylesheet" href="/assets/style.css">
+    {% endif %}
+  </head>
+
+  <body class="overflow-x-hidden flex flex-col min-h-screen">
+ 
+    {% include "components/header.njk" %}
+    {% include "components/navbar.njk" %}
+    
+    <main id="main-content" class="container mx-auto py-12 max-w-sm md:max-w-3xl flex flex-col flex-grow justify-start">
+        {{ content | safe }}
+    </main>
+
+    {% include "components/footer.njk" %}
+    {% include "components/bottom.njk" %}
+    
+  </body>
+
+</html>

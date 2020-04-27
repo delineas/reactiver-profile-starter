@@ -1,0 +1,11 @@
+{% if site.cookieNoticeEnabled %}
+    <script src="/assets/js/cookie.notice.min.js"></script>
+{% endif %}
+
+{% set js %}
+{% if site.cookieNoticeEnabled %}
+    {% include "js/cookie-notice.js" %}
+{% endif %}
+{% include "js/scripts.js" %}
+{% endset %}
+<script>{{ js | jsmin | safe }}</script>

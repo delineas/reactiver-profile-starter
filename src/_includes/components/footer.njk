@@ -1,0 +1,22 @@
+<footer class="bg-cool-gray-100 border-t border-cool-gray-100">
+
+  <div class="p-6 mx-auto overflow-hidden text-base measure">
+    <div class="flex flex-wrap justify-center mt-2">
+      <div class="px-8">
+        <a rel="external" href="{{ site.author.twitter }}">Twitter</a>
+      </div>
+      <div class="px-8">
+        <a rel="external" href="{{ site.author.github }}">GitHub</a>
+      </div>
+      <div class="px-8">
+        <a href="/legal/" {% if page.url == '/legal/' %} aria-current="page" {% endif %}>Legal</a>
+      </div>
+    </div>
+
+    <div class="mt-6 mb-2">
+      <p class="text-center text-gray-500">
+        Hecho con ♥︎ por {{ site.author.name }}</p>
+    </div>
+  </div>
+
+</footer>

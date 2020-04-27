@@ -1,0 +1,144 @@
+.markdown {
+    @apply text-gray-900;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply text-black font-semibold leading-tight;
+    }
+
+    h1 {
+        @apply text-4xl pb-6;
+    }
+
+    h2 {
+        @apply text-2xl;
+    }
+
+
+    h4 {
+        @apply text-sm;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply py-6 inline-flex items-center relative;
+
+        >a {
+            @apply hidden text-gray-700 h-full absolute inset-x-0;
+        }
+
+        &:hover a {
+            @apply inline-flex;
+        }
+    }
+
+    h3 {
+        @apply pt-6 pb-2 mb-3 block text-3xl border-b-2 border-solid border-gray-400;
+    }
+
+    a {
+        @apply border-b border-solid border-blue-700;
+
+        &:hover {
+            @apply text-blue-900;
+        }
+    }
+
+    p {
+        @apply mb-4 leading-normal
+    }
+
+    ul,
+    ol {
+        @apply mb-4 pl-8;
+
+        li {
+            @apply mb-2;
+        }
+    }
+
+    ul {
+        @apply list-disc;
+    }
+
+    ol {
+        @apply list-decimal;
+    }
+
+    abbr[title] {
+        @apply border-b border-dotted no-underline;
+    }
+
+    pre {
+        @apply p-4 mb-4 -ml-20 pl-20 border border-l-0 overflow-auto scrolling-touch break-normal cursor-text;
+    }
+
+    code {
+        @apply text-sm font-mono;
+    }
+
+    mark {
+        @apply bg-yellow-200 px-2;
+    }
+
+    blockquote {
+        @apply border-l-4 border-gray-300 p-4 mb-4 mx-4 italic;
+
+        p {
+            @apply mb-0;
+        }
+    }
+
+    table {
+        @apply block border text-sm mb-4 w-full overflow-x-auto scrolling-touch;
+
+        thead {
+            @apply bg-gray-200;
+        }
+
+        th,
+        td {
+            @apply p-4;
+        }
+
+        th {
+            @apply font-semibold text-left;
+        }
+    }
+}
+
+
+.label {
+    @apply align-text-top inline-block pt-px px-1 mt-1 text-xs font-mono uppercase text-white rounded;
+}
+
+hr {
+    @apply h-px bg-gray-300 my-8;
+}
+
+@screen sm {
+    .markdown {
+        table {
+            @apply table;
+        }
+
+        blockquote {
+            @apply mx-10;
+        }
+    }
+}
+
+@screen lg {
+    .markdown {
+        table {
+            @apply w-full;
+        }
+    }
+}

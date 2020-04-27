@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+---
+
+<section>
+
+  <article class="markdown">
+    <time value="{{ date }}" class="text-sm text-gray-600">Fecha: {{ date | htmlDate }}</time>
+    <h1 class="mt-3">{{ title }}</h1>
+    <div class="mt-6 text-2xl text-gray-500 flow">
+      {{ teaser | safe }}
+    </div>
+    <div class="mt-8 flow">
+      {{ content | safe }}
+    </div>
+  </article>
+
+  <nav class="mx-auto mt-16 measure"><a href="{{ '/blog/' | url }}">← Ir al blog</a></nav>
+
+</section>

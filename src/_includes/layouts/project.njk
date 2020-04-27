@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+---
+
+<section>
+
+  <article class="markdown">
+    <h1>{{ title }}</h1>
+    <div class="mt-6 text-2xl text-gray-500 flow">
+      {{ teaser | safe }}
+    </div>
+    <div class="mt-8 flow">
+      {{ content | safe }}
+    </div>
+  </article>
+
+  <nav class="mx-auto mt-16 measure"><a href="{{ '/projects/' | url }}">← Ver más proyectos</a></nav>
+
+</section>

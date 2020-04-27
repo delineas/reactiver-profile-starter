@@ -1,0 +1,26 @@
+@tailwind base;
+
+/* ********************** */
+/* *** CSS Variables *** */
+/* ********************** */
+
+:root {
+    /* Measure */
+    --measure: theme("maxWidth.3xl");
+
+    /* Flow */
+    --flow-space: 1.5em;
+
+    /* Colors */
+    --color-bodybg: theme("colors.white");
+    --color-bodytext: theme("colors.cool-gray.700");
+    --color-muted: theme("colors.gray.50");
+    --color-primary: theme("colors.purple.700");
+    --color-secondary: theme("colors.pink.700");
+    --color-links: var(--color-primary);
+    --color-focus: var(--color-secondary);
+}
+
+
+@tailwind components;
+@tailwind utilities;
