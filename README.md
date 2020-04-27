@@ -51,4 +51,4 @@ También a todas los integrantes del primer Grupo de trabajo de Developers Optim
 
 ## Soporte
 
-A través de las *issues* del repositorio de Github y en https://www.danielprimo
+A través de las *issues* del repositorio de Github y en https://www.danielprimo.io
