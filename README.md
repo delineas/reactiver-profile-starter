@@ -2,7 +2,7 @@
 
 > Es un starter pensado para freelance cuyo primer idioma es el español. Mejor aún si son oyentes de Web Reactiva
 
-¡Demo disponible pronto!
+[Demo](https://reactiver-profile-starter.netlify.app)
 
 Hijo de [eleventail](https://github.com/philhawksworth/eleventail) and [jamstack-web-starter](https://github.com/scottishstoater/jamstack-web-starter) raised by [Marc Filleul](https://www.artisanweb.dev/) y [MF Blog Starter](https://github.com/marcfilleul/mf-blogstarter)
 
