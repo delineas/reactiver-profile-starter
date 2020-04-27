@@ -34,6 +34,10 @@ La esencia de este *starter* está en:
 3. Con `npm run watch` se arranca Eleventy y la compilación de ficheros CSS
 4. Con `npm run build` se compila la versión para producción
 
+## Desplegar en Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/delineas/reactiver-profile-starter)
+
 ## Configuración
 
 - Modificar todos los parámetros del sitio en `src/_data/site.js`
