@@ -4,7 +4,7 @@
 
 [Demo](https://reactiver-profile-starter.netlify.app)
 
-Hijo de [eleventail](https://github.com/philhawksworth/eleventail) and [jamstack-web-starter](https://github.com/scottishstoater/jamstack-web-starter) raised by [Marc Filleul](https://www.artisanweb.dev/) y [MF Blog Starter](https://github.com/marcfilleul/mf-blogstarter)
+Hijo de [eleventail](https://github.com/philhawksworth/eleventail) y [jamstack-web-starter](https://github.com/scottishstoater/jamstack-web-starter) pero principalmente del trabajo de [Marc Filleul](https://www.artisanweb.dev/) con su [MF Blog Starter](https://github.com/marcfilleul/mf-blogstarter)
 
 Además esta plantilla usa masivamente los componentes y *templates* ofrecidos por [mert.dev](https://mert.dev/tailwind-blocks/)
 
