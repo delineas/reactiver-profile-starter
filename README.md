@@ -21,7 +21,7 @@ La esencia de este *starter* está en:
 
 - Usamos la fuente [Inter](https://rsms.me/inter/)
 - Aviso legal de Cookies de la mano de [Cookie Notice](https://github.com/AOEpeople/cookie-notice#readme)
-- Formulario de contacto con [FormSpree](https://formspree.com)
+- Formulario de contacto con [FormSpree](https://formspree.io)
 - HTML minificado en producción
 - CSS minificado en producción
 - Scripts optimizados para producción
