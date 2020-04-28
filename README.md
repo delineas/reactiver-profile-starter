@@ -4,14 +4,14 @@
 
 [Demo](https://reactiver-profile-starter.netlify.app)
 
-Hijo de [eleventail](https://github.com/philhawksworth/eleventail) y [jamstack-web-starter](https://github.com/scottishstoater/jamstack-web-starter) pero principalmente del trabajo de [Marc Filleul](https://www.artisanweb.dev/) con su [MF Blog Starter](https://github.com/marcfilleul/mf-blogstarter)
+Hijo de [eleventail](https://github.com/philhawksworth/eleventail) y [jamstack-web-starter](https://github.com/scottishstoater/jamstack-web-starter) pero principalmente del trabajo de [Marc Filleul](https://www.artisanweb.dev/) con su [MF Blog Starter](https://github.com/marcfilleul/mf-blogstarter).
 
-Además esta plantilla usa masivamente los componentes y *templates* ofrecidos por [mert.dev](https://mert.dev/tailwind-blocks/)
+Además esta plantilla usa masivamente los componentes y *templates* ofrecidos por [mert.dev](https://mert.dev/tailwind-blocks/).
 
 La esencia de este *starter* está en:
 
 - [Eleventy](https://11ty.dev) para la generación del sitio y la gestión de las plantillas.
-- [Tailwindcss](https://tailwindcss.com) para 
+- [Tailwindcss](https://tailwindcss.com) para la maquetación.
 
 - PostCSS se encarga de:
 
@@ -29,10 +29,10 @@ La esencia de este *starter* está en:
 
 ## Instalación
 
-1. Clonar el repositorio
-2. Ejecutar `npm install`
-3. Con `npm run watch` se arranca Eleventy y la compilación de ficheros CSS
-4. Con `npm run build` se compila la versión para producción
+1. Clonar el repositorio.
+2. Ejecutar `npm install`.
+3. Con `npm run watch` se arranca Eleventy y la compilación de ficheros CSS.
+4. Con `npm run build` se compila la versión para producción.
 
 ## Desplegar en Netlify
 
