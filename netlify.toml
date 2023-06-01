@@ -1,3 +1,18 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  
+[[redirects]]
+  from = "/"
+  to = "https://webreactiva.com/newsletter"
+  status = 301
+
+[[redirects]]
+  from = "/subscribe"
+  to = "https://webreactiva.com/newsletter"
+  status = 301
+
+[[redirects]]
+  from = "/sponsor"
+  to = "https://webreactiva.com/newsletter"
+  status = 301
